@@ -1,0 +1,125 @@
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,900);
+/*Page concate*/
+
+ div.head_contact
+{
+margin-top:40px;
+width:90%;
+height:80px;
+margin-left:auto;
+margin-right:auto;
+}
+ div.head_contact div.img_dial, div.head_contact div.apost_1, div.head_contact div.apost_2, div.head_contact div.txt_dial
+{
+float:left;
+}
+ div.head_contact div.img_dial
+{
+margin-right:20px;
+}
+ div.head_contact div.txt_dial
+{
+width:75%;
+height:80px;
+}
+ div.head_contact div.txt_dial p
+{
+font-family: 'Dancing Script', cursive;
+letter-spacing:1px;
+font-size:1.8em;
+color:#C51B1D;
+margin-left: 5%;
+}
+
+ div.head_formulaire div.champ
+{
+margin-top:40px;
+width:100%;
+height:500px;
+}
+ div.head_formulaire div.form div.form_left, div.head_formulaire div.form div.form_right
+{
+width:50%;
+height:100%;
+float:left;
+}
+ div.head_formulaire div.form_right textarea
+{
+width:100%;
+height:90%;
+}
+.form label{
+font-size:2em;
+color:rgb(250,250,250) !important;
+letter-spacing:1px;
+font-family: 'roboto' !important;
+font-style:italic;
+text-decoration:none;
+font-weight:100;
+}
+ div.head_formulaire div.form_right textarea, div.head_formulaire div.form_left div input
+{
+ border: 1px solid #50baee;
+border-radius: 2px;
+color: #50baee;
+box-shadow: -5px 5px 0px 0px rgba(0, 0, 0, 0.2);
+}
+ div.head_formulaire div.form_left div
+{
+width:100%;
+height:25%;
+margin-bottom: 20px;
+}
+ div.head_formulaire div.form_left div input
+{
+width:80%;
+font-size:24px;
+display:block;
+padding: 4px 3px;
+}
+ div.head_formulaire div.form_right textarea
+{
+font-size:20px;
+}
+ div.head_formulaire div.form_left div input:focus
+{
+ outline: none !important;
+}
+.bon
+{
+font-family: 'Dancing Script', cursive;
+font-size: 0.9em;
+font-weight: 700;
+letter-spacing: 1px;
+color:#21A817;
+}
+.mauvais
+{
+font-family: 'Dancing Script', cursive;
+font-size: 0.9em;
+font-weight: 700;
+letter-spacing: 1px;
+color:#C51B1D;
+}
+/* div.head_formulaire div.form_left div input.adtel
+{
+background:url(../img/no.png) no-repeat right;
+*/
+ div.head_formulaire div.button_sub input
+{
+background-color: #50baee;
+cursor: pointer;
+color: #fff;
+font-size: 2.9em;
+font-family: 'arpoadorregular';
+height: 70px;
+padding: 17px 27px;
+margin-top:30px;
+margin-left:45%;
+letter-spacing:2px;
+/*----------------------*/
+border: none;
+border-radius: 4px;
+box-shadow: -5px 5px 0px 0px rgba(0, 0, 0, 0.2);
+}

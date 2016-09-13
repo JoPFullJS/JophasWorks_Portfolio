@@ -1,0 +1,200 @@
+@media screen and (min-width:240px) and (max-width:320px)
+{
+.main-nav ul li.redbord
+{
+box-shadow: 0 0 0 4px #95910A inset;
+}
+/*Bar meunu*/
+
+.partage a img
+{
+height:35px;
+}
+.search a img
+{
+background-color:rgb(100,100,100);
+height:35px;
+}
+/*Menu Categories*/
+.main-nav ul li.logo
+{
+text-align:center;
+width:14.28%;
+height:90px;
+}
+.main-nav ul li.logo:hover
+{
+text-align:center;
+width:14.28%;
+height:90px;
+}
+.main-nav ul li.folio,.main-nav ul li.creation,.main-nav ul li.dev,.main-nav ul li.certif,.main-nav ul li.about,.main-nav ul li.contact
+{
+text-align:center;
+width:14.28%;
+}
+.main-nav ul li.folio:hover,.main-nav ul li.creation:hover,.main-nav ul li.dev:hover,.main-nav ul li.certif:hover,.main-nav ul li.about:hover,.main-nav ul li.contact:hover
+{
+text-align:center;
+width:14.28%;
+}
+.main-nav ul li.folio a,.main-nav ul li.creation a,.main-nav ul li.dev a,.main-nav ul li.certif a,.main-nav ul li.about a,.main-nav ul li.contact a
+{
+background-position: 50% 30%;
+background-size:40px;
+font-size:1.3em;
+line-height: 145px;
+}
+.main-nav ul li.logo a
+{
+left:4px;
+top:-25px;
+height:120px;
+background-size:95% 95%;
+}
+/*NAVIGATION*/
+.main-nav ul li.bord:hover
+{
+box-shadow: 0 0 0 4px #C51B1D inset;
+}
+/*Bar presention*/
+.categorie
+{
+display:block;
+height:25px;
+background-color:#C51B1D;
+max-width: 1100px;
+margin: auto;
+background-image: url('../img/noise.png');
+}
+.categorie p
+{
+margin:0;
+height:100%;
+width:100%;
+text-align:center;
+line-height:25px;
+color: rgb(250,250,250);
+font-family: 'Dancing Script', cursive;
+font-size:1.5em;
+font-weight:700;
+letter-spacing:1px;
+}
+/*--------------*/
+.content_list div.projet_list
+{
+width:100%;
+}
+/*espacement des 3 premières boxes*/
+.content_list div.projet_list:nth-child(1)
+{
+padding-right:0px;
+}
+.content_list div.projet_list:nth-child(2)
+{
+padding-right:0px;
+padding-left:0px;
+}
+.content_list div.projet_list:nth-child(3)
+{
+padding-left:0px;
+padding-right:0px;
+}
+/*-----------  Contenuu Apropos  --------------------*/
+
+.content_list_about div.fiche_identite
+{
+width:100%;
+min-height:250px;
+background:url('../img/noise.png') hsl(24, 20%, 95%);
+}
+.content_list_about div.fiche_identite div.photo
+{
+/*float:left;*/
+margin:auto;
+height:100%;
+width:100%;
+}
+.content_list_about div.fiche_identite div.denomination
+{
+/*float:left;*/
+text-align:center;
+height:100%;
+width:100%;
+}
+/*---------------------------------------*/
+.content_list_about div.competences
+{
+width:100%;
+min-height:650px;
+background:url('../img/noise.png') hsl(24, 20%, 98%);
+}
+.content_list_about div.competences div.logiciel
+{
+/*float:left;*/
+margin:auto;
+width:100%;
+height:100%;
+}
+.content_list_about div.competences div.technos
+{
+/*float:left;*/
+margin:auto;
+width:100%;
+height:100%;
+}
+.content_list_about div.competences div.logiciel div.list_logiciel,.content_list_about div.competences div.technos div.list_technos
+{
+height:550px;
+}
+/*-----------------------------------------*/
+.content_contact div.head_formulaire div.form
+{
+margin-top:40px;
+width:100%;
+height:auto;
+}
+.content_contact div.head_formulaire div.form div.form_left,.content_contact div.head_formulaire div.form div.form_right
+{
+width:100%;
+height:100%;
+/*float:left;*/
+}
+/*------------  Fin contenu Apropos   ------------------*/
+/*----------	CONTENU DES PAGES	------------------------------*/
+.content_article div.content_nav
+{
+width:100%;
+height:30px;
+}
+.content_article div.content_nav div.nav_prev p,.content_article div.content_nav div.nav_next p
+{
+top:30px;
+}
+.content_article div.content_nav div.nav_prev:hover a,.content_article div.content_nav div.nav_prev p,.content_article div.content_nav div.nav_next:hover a,.content_article div.content_nav div.nav_next p
+{
+font-size: 0.9em;
+}
+.content_article div.content_nav div.nav_titre p
+{
+font-size:0.9em;
+}
+/*--------------------------------------------*/
+.content_article div.content_topic div.content_info,.content_article div.content_topic div.content_image
+{
+
+}
+.content_article div.content_topic div.content_info
+{
+width:100%;
+height:100%;
+}
+.content_article div.content_topic div.content_image
+{
+width:100%;
+height:100%;
+}
+/*----------------*/
+/*----------------------------------------------------------------*/
+/*------------------*/
+}

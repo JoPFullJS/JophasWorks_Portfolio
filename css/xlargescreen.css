@@ -1,0 +1,196 @@
+@media screen and (min-width:1280px)
+{
+.main-nav ul li.redbord
+{
+border-bottom: 8px inset #96C6CA;
+}
+/*Bar de menu*/
+
+.partage a img
+{
+height:45px;
+}
+.search a img
+{
+background-color: rgb(51,51,51);
+height:45px;
+}
+/*-----------------*/
+/*Menu Categories*/
+.main-nav ul li.logo
+{
+text-align:center;
+width:14.28%;
+height:90px;
+}
+.main-header{
+    padding-left: 35px;
+    padding-right: 35px;
+	background-color: #C51B1D;
+}
+.main-nav ul li.logo:hover
+{
+text-align:center;
+width:14.28%;
+height:90px;
+}
+.main-nav ul li.folio,.main-nav ul li.creation,.main-nav ul li.dev,.main-nav ul li.certif,.main-nav ul li.about,.main-nav ul li.contact
+{
+text-align:center;
+width:14.28%;
+}
+.main-nav ul li.folio:hover,.main-nav ul li.creation:hover,.main-nav ul li.dev:hover,.main-nav ul li.certif:hover,.main-nav ul li.about:hover,.main-nav ul li.contact:hover
+{
+text-align:center;
+width:14.28%;
+}
+
+.main-nav ul li.logo a
+{
+left:4px;
+top:-25px;
+height:120px;
+background-size:95% 95%;
+}
+/*NAVIGATION*/
+/*
+.main-nav ul li.bord:hover
+{
+box-shadow: 0 0 0 4px #C51B1D inset;
+}
+*/
+
+
+/*----  BOX CONTENT  --------*/
+.content_list div.projet_list
+{
+width:33.33%;
+}
+/*espacement des 3 premières boxes*/
+.content_list div.projet_list:nth-child(1)
+{
+padding-right:16.5px;
+position:relative;
+top:-20px;
+}
+.content_list div.projet_list:nth-child(2)
+{
+padding-right:8px;
+padding-left:8px;
+
+}
+
+.content_list div.projet_list:nth-child(3)
+{
+padding-left:16.5px;
+}
+/*-------------------*/
+
+/*-----------  Contenu Apropos  --------------------*/
+.content_list_about div.fiche_identite div.context_about,.content_list_about div.exp_pro div.context_about,.content_list_about div.fiche_contact div.context_about{
+  width:1100px;
+  margin: auto;
+}
+.content_list_about div.fiche_identite
+{
+height:300px;
+background-color:#eff9fa;
+padding:50px 0 50px 0;
+}
+.content_list_about div.fiche_identite div.photo
+{
+float:left;
+height:100%;
+width:30%;
+}
+.content_list_about div.fiche_identite div.denomination
+{
+float:left;
+height:100%;
+width:70%;
+}
+/*---------------------------------------*/
+/*
+.content_list_about div.competences
+{
+height:650px;
+background-color:#f9feff;
+}
+*/
+.content_list_about div.fiche_contact
+{
+height:auto;
+background-color:#eff9fa;
+padding-bottom: 50px;
+}
+.content_list_about div.exp_pro
+{
+height:1300px;
+background-color:#f9feff;
+}
+.content_list_about div.competences div.logiciel
+{
+float:left;
+width:50%;
+height:100%;
+}
+.content_list_about div.competences div.technos
+{
+float:left;
+width:50%;
+height:100%;
+}
+.content_list_about div.competences div.logiciel div.list_logiciel,.content_list_about div.competences div.technos div.list_technos
+{
+height:85%;
+}
+/*-----------------------------------------*/
+.content_contact div.head_formulaire div.form
+{
+margin-top:40px;
+width:100%;
+height:350px;
+}
+.content_contact div.head_formulaire div.form div.form_left,.content_contact div.head_formulaire div.form div.form_right
+{
+width:50%;
+height:100%;
+float:left;
+}
+/*------------  Fin contenu Apropos   ------------------*/
+/*----------	CONTENU DES PAGES	------------------------------*/
+.content_article div.content_nav
+{
+width:100%;
+height:100px;
+}
+.content_article div.content_nav div.nav_prev p,.content_article div.content_nav div.nav_next p
+{
+top:80px;
+}
+.content_article div.content_nav div.nav_prev:hover a,.content_article div.content_nav div.nav_prev p,.content_article div.content_nav div.nav_next:hover a,.content_article div.content_nav div.nav_next p
+{
+font-size: 1.2em;
+}
+.content_article div.content_nav div.nav_titre p
+{
+font-size:2em;
+}
+/*--------------------------------------------*/
+.content_article div.content_topic div.content_info,.content_article div.content_topic div.content_image
+{
+float:left;
+}
+.content_article div.content_topic div.content_info
+{
+width:30%;
+height:100%;
+}
+.content_article div.content_topic div.content_image
+{
+width:70%;
+height:100%;
+}
+/*----------------*/
+/*----------------------------------------------------------------*/
+}

@@ -1,0 +1,42 @@
+	<div class="footer">
+		<div class="carte_visite">
+			<div class="embleme">
+				<div class="trait"></div>
+				<div class="trait2"></div>
+				<div class="trait3"></div>
+				><img src="http://jophasworks.com/img/logo_in.png" /></div>
+			</div>
+			<div class="global_box">
+				
+				<div class="projet">
+					<div class="menu_head">
+						<div class="trait_horz">
+							
+						</div>
+						<div class="titre_head"><a href="/">Projets Web <br/><span>-- 3 Projets Web --</span></a></div>
+					</div>
+					<div class="menu_head">
+						<div class="trait_horz"></div>
+						<div class="titre_head"><a href="/">Dev.Codes <br/><span>-- 4 Applications Multim&eacute;dias --</span></a></div>
+					</div>
+					<div class="menu_head">
+						<div class="trait_horz"></div>
+						<div class="titre_head"><a href="/">Cr&eacute;ations <br/><span>-- 10 Cr&eacute;ations graphiques --</span></a></div>
+					</div>
+					<div class="menu_head">
+						<div class="trait_horz"></div>
+						<div class="titre_head"><a href="/">Contact <br/><span>-- jophalupi@gmail.com --</span></a></div>
+					</div>
+					<div class="menu_head_end">
+						<div class="trait_horz"></div>
+						<div class="titre_head" ><a href="/">A propos <br/><span>-- Int&eacute;grateur web --<br/>-- Autodidacte --<br/>j'ai r&eacute;alis&eacute; plusieurs projets aussi bien personnels qu'en freelance.<br/>Contactez-moi pour plus d'explicationes.<br/>---- JOPHA FREDDY ----</span></a></div>
+					</div>
+				</div>
+				
+			</div>
+			
+		    
+		</div>
+		
+		
+	</div>

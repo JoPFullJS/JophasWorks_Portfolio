@@ -1,0 +1,60 @@
+.block_com
+{
+width:100%;
+}
+.block_com div.form
+{
+margin-top:40px;
+width:100%;
+height:400px;
+}
+.block_com textarea
+{
+width:100%;
+/*height:90%;*/
+}
+.block_com textarea,.block_com div input
+{
+ border: 1px solid #50baee;
+border-radius: 2px;
+color: #50baee;
+box-shadow: -5px 5px 0px 0px rgba(0, 0, 0, 0.2);
+}
+.block_com div
+{
+width:100%;
+height:80px;
+margin-bottom: 3px;
+}
+.block_com div input
+{
+width:80%;
+font-size:24px;
+display:block;
+padding: 4px 3px;
+}
+.block_com textarea
+{
+font-size:20px;
+width: 80%;
+height: 120px;
+}
+.block_com div input:focus
+{
+ outline: none !important;
+}
+.block_com div.button_sub input
+{
+background-color: #50baee;
+cursor: pointer;
+color: #fff;
+font-size: 25px;
+font-family: 'Source Sans Pro', sans-serif;
+height: 70px;
+padding: 17px 27px;
+margin-top:30px;
+/*----------------------*/
+border: none;
+border-radius: 2px;
+box-shadow: -5px 5px 0px 0px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,13 @@
+@media screen and (min-width:240px) and (max-width:600px)
+{
+.layer-bar div:nth-child(1) {
+     margin-left: 0px !important; 
+     margin-right: 0px !important; 
+    text-align: center !important;
+}
+
+.content article{
+width:100% !important;
+text-align:center !important;
+}
+}

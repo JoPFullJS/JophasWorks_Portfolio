@@ -1,0 +1,91 @@
+window.onload=function(){
+var startColor = '#000000';
+var endColor = '#6FD57F';
+
+var element = document.getElementById('example-animation-container');
+var circle = new ProgressBar.Circle(element, {
+    color: '#6FD57F',
+    // This has to be the same size as the maximum width to
+    // prevent clipping
+    strokeWidth: 10,
+    trailWidth: 15,
+    easing: 'bounce',
+    duration: 2000,
+    text: {
+        value: '0',
+    },
+
+    // Set default step function for all animate calls
+    step: function(state, circle) {
+        circle.path.setAttribute('stroke', state.color);
+        circle.path.setAttribute('stroke-width', state.width);
+        circle.setText((circle.value() * 100).toFixed(0));
+    }
+});
+var i=0;
+setInterval(function() {
+  i++;
+    if(i == 2)
+    {
+    circle.animate(0.75, {
+        from: { color:startColor, width: 1 },
+        to: { color:endColor, width: 15 }
+    });
+        fg();
+    }
+    //alert(i);
+}, 500);
+    
+var startColor = '#000000';
+var endColor = '#6FD57F';
+
+var element2 = document.getElementById('example-animation-container2');
+var circle2 = new ProgressBar.Circle(element2, {
+    color: '#6FD57F',
+    // This has to be the same size as the maximum width to
+    // prevent clipping
+    strokeWidth: 10,
+    trailWidth: 15,
+    easing: 'bounce',
+    duration: 2000,
+    text: {
+        value: '0',
+    },
+
+    // Set default step function for all animate calls
+    step: function(state, circle2) {
+        circle2.path.setAttribute('stroke', state.color);
+        circle2.path.setAttribute('stroke-width', state.width);
+        circle2.setText((circle2.value() * 100).toFixed(0));
+    }
+});
+var x=0;
+setInterval(function() {
+  x++;
+    if(x == 3)
+    {
+    circle2.animate(0.80, {
+        from: { color:startColor, width: 1 },
+        to: { color:endColor, width: 15 }
+    });
+    }
+    //alert(i);
+}, 500);
+}
+
+<div class="example-container" id="example-animation-container"></div>
+
+#example-animation-container
+{
+    position:absolute;
+    width:50%;
+    
+}
+p.progressbar-text
+{
+    font-size:4em;
+}
+p.progressbar-text:after
+{
+   content:'%'; 
+}

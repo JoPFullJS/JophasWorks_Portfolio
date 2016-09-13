@@ -1,0 +1,552 @@
+@media screen and (min-width:1280px)
+{
+.main-nav ul li.redbord
+{
+box-shadow: 0 0 0 4px #F11A57 inset;
+}
+/*Bar de menu*/
+.layer-bar
+{
+width: 100%;
+max-width: 1100px;
+margin: auto;
+height: 35px;
+background-color: rgb(51,51,51);
+}
+.partage a img
+{
+height:35px;
+}
+.search a img
+{
+background-color:rgb(100,100,100);
+height:35px;
+}
+/*-----------------*/
+/*Menu Categories*/
+.main-nav ul li.logo
+{
+text-align:center;
+width:14.28%;
+height:90px;
+}
+.main-nav ul li.logo:hover
+{
+text-align:center;
+width:14.28%;
+height:90px;
+}
+.main-nav ul li.folio,.main-nav ul li.creation,.main-nav ul li.dev,.main-nav ul li.certif,.main-nav ul li.about,.main-nav ul li.contact 
+{
+text-align:center;
+width:14.28%;
+}
+.main-nav ul li.folio:hover,.main-nav ul li.creation:hover,.main-nav ul li.dev:hover,.main-nav ul li.certif:hover,.main-nav ul li.about:hover,.main-nav ul li.contact:hover 
+{
+text-align:center;
+width:14.28%;
+}
+.main-nav ul li.folio a,.main-nav ul li.creation a,.main-nav ul li.dev a,.main-nav ul li.certif a,.main-nav ul li.about a,.main-nav ul li.contact a
+{
+background-position: 50% 30%;
+background-size:40px;
+font-size:1.3em;
+line-height: 145px;
+}
+.main-nav ul li.logo a
+{
+left:4px;
+top:-25px;
+height:120px;
+background-size:95% 95%;
+}
+/*NAVIGATION*/
+.main-nav ul li.bord:hover
+{
+box-shadow: 0 0 0 4px #C51B1D inset;
+}
+/*Bar presention*/
+.categorie
+{
+display:block;
+height:30px;
+background-color:#C51B1D;
+max-width: 1100px;
+margin: auto;
+background-image: url('../img/noise.png');
+}
+.categorie p
+{
+margin:0;
+height:100%;
+width:100%;
+text-align:center;
+line-height:30px;
+color: rgb(250,250,250);
+font-family: 'Dancing Script', cursive;
+font-size:1.7em;
+font-weight:700;
+letter-spacing:1px;
+}
+/*----------------*/
+}
+/*----------------------------------------------------------------------------*/
+@media screen and (min-width:1100px) and (max-width:1280px)
+{
+.main-nav ul li.redbord
+{
+box-shadow: 0 0 0 4px #0CBAA3 inset;
+}
+/*Bar menu*/
+.layer-bar
+{
+width: 100%;
+max-width: 1100px;
+margin: auto;
+height: 35px;
+background-color: rgb(51,51,51);
+}
+.partage a img
+{
+height:35px;
+}
+.search a img
+{
+background-color:rgb(100,100,100);
+height:35px;
+}
+/*Menu Categories*/
+.main-nav ul li.logo
+{
+text-align:center;
+width:14.28%;
+height:90px;
+}
+.main-nav ul li.logo:hover
+{
+text-align:center;
+width:14.28%;
+height:90px;
+}
+.main-nav ul li.folio,.main-nav ul li.creation,.main-nav ul li.dev,.main-nav ul li.certif,.main-nav ul li.about,.main-nav ul li.contact 
+{
+text-align:center;
+width:14.28%;
+}
+.main-nav ul li.folio:hover,.main-nav ul li.creation:hover,.main-nav ul li.dev:hover,.main-nav ul li.certif:hover,.main-nav ul li.about:hover,.main-nav ul li.contact:hover 
+{
+text-align:center;
+width:14.28%;
+}
+.main-nav ul li.folio a,.main-nav ul li.creation a,.main-nav ul li.dev a,.main-nav ul li.certif a,.main-nav ul li.about a,.main-nav ul li.contact a
+{
+background-position: 50% 30%;
+background-size:40px;
+font-size:1.3em;
+line-height: 145px;
+}
+.main-nav ul li.logo a
+{
+left:4px;
+top:-25px;
+height:120px;
+background-size:95% 95%;
+}
+/*NAVIGATION*/
+.main-nav ul li.bord:hover
+{
+box-shadow: 0 0 0 4px #C51B1D inset;
+}
+/*Bar presention*/
+.categorie
+{
+display:block;
+height:25px;
+background-color:#C51B1D;
+max-width: 1100px;
+margin: auto;
+background-image: url('../img/noise.png');
+}
+.categorie p
+{
+margin:0;
+height:100%;
+width:100%;
+text-align:center;
+line-height:25px;
+color: rgb(250,250,250);
+font-family: 'Dancing Script', cursive;
+font-size:1.7em;
+font-weight:700;
+letter-spacing:1px;
+}
+/*----------------*/
+}
+/*-------------------------------------------------------------*/
+@media screen and (min-width:900px) and (max-width:1100px)
+{
+.main-nav ul li.redbord
+{
+box-shadow: 0 0 0 3px #910A95 inset;
+}
+/*Bar menu*/
+.layer-bar
+{
+width: 100%;
+max-width: 1100px;
+margin: auto;
+height: 25px;
+background-color: rgb(51,51,51);
+}
+.partage a img
+{
+height:25px;
+}
+.search a img
+{
+background-color:rgb(100,100,100);
+height:25px;
+}
+/*Menu Categories*/
+.main-nav ul li.logo
+{
+text-align:center;
+width:14.28%;
+height:70px;
+}
+.main-nav ul li.logo:hover
+{
+text-align:center;
+width:14.28%;
+height:70px;
+}
+.main-nav ul li.folio,.main-nav ul li.creation,.main-nav ul li.dev,.main-nav ul li.certif,.main-nav ul li.about,.main-nav ul li.contact 
+{
+text-align:center;
+width:14.28%;
+}
+.main-nav ul li.folio:hover,.main-nav ul li.creation:hover,.main-nav ul li.dev:hover,.main-nav ul li.certif:hover,.main-nav ul li.about:hover,.main-nav ul li.contact:hover 
+{
+text-align:center;
+width:14.28%;
+}
+.main-nav ul li.folio a,.main-nav ul li.creation a,.main-nav ul li.dev a,.main-nav ul li.certif a,.main-nav ul li.about a,.main-nav ul li.contact a
+{
+background-position: 50% 30%;
+background-size:30px;
+font-size:1.1em;
+line-height: 115px;
+}
+.main-nav ul li.logo a
+{
+left:0px;
+top:-18px;
+height:110px;
+background-size:100% 80%;
+}
+/*NAVIGATION*/
+.main-nav ul li.bord:hover
+{
+box-shadow: 0 0 0 3px #C51B1D inset;
+}
+/*Bar presention*/
+.categorie
+{
+display:block;
+height:25px;
+background-color:#C51B1D;
+max-width: 1100px;
+margin: auto;
+background-image: url('../img/noise.png');
+}
+.categorie p
+{
+margin:0;
+height:100%;
+width:100%;
+text-align:center;
+line-height:25px;
+color: rgb(250,250,250);
+font-family: 'Dancing Script', cursive;
+font-size:1.5em;
+font-weight:700;
+letter-spacing:1px;
+}
+/*---------------*/
+}
+/*------------------------------------------------------------*/
+@media screen and (min-width:240px) and (max-width:600px)
+{
+.main-nav ul li.redbord
+{
+box-shadow: 0 0 0 2px #950A26 inset;
+}
+/*Bar menu*/
+.layer-bar
+{
+width: 100%;
+max-width: 1100px;
+margin: auto;
+height: 20px;
+background-color: rgb(51,51,51);
+}
+.partage a img
+{
+height:20px;
+}
+.search a img
+{
+background-color:rgb(100,100,100);
+height:20px;
+}
+/*Menu Categories*/
+.main-nav ul li.logo
+{
+text-align:center;
+width:14.28%;
+height:60px;
+}
+.main-nav ul li.logo:hover
+{
+text-align:center;
+width:14.28%;
+height:60px;
+}
+.main-nav ul li.folio,.main-nav ul li.creation,.main-nav ul li.dev,.main-nav ul li.certif,.main-nav ul li.about,.main-nav ul li.contact 
+{
+text-align:center;
+width:14.28%;
+}
+.main-nav ul li.folio:hover,.main-nav ul li.creation:hover,.main-nav ul li.dev:hover,.main-nav ul li.certif:hover,.main-nav ul li.about:hover,.main-nav ul li.contact:hover 
+{
+text-align:center;
+width:14.28%;
+}
+.main-nav ul li.folio a,.main-nav ul li.creation a,.main-nav ul li.dev a,.main-nav ul li.certif a,.main-nav ul li.about a,.main-nav ul li.contact a
+{
+background-position: 50% 30%;
+background-size:25px;
+font-size:0.9em;
+line-height: 95px;
+}
+.main-nav ul li.logo a
+{
+left:5px;
+top:-12px;
+height:100px;
+background-size:90% 72%;
+}
+/*NAVIGATION*/
+.main-nav ul li.bord:hover
+{
+box-shadow: 0 0 0 2px #C51B1D inset;
+}
+/*Bar presention*/
+.categorie
+{
+display:block;
+height:20px;
+background-color:#C51B1D;
+max-width: 1100px;
+margin: auto;
+background-image: url('../img/noise.png');
+}
+.categorie p
+{
+margin:0;
+height:100%;
+width:100%;
+text-align:center;
+line-height:20px;
+color: rgb(250,250,250);
+font-family: 'Dancing Script', cursive;
+font-size:1.3em;
+font-weight:700;
+letter-spacing:1px;
+}
+/*-----------------*/
+}
+/*----------------------------------------------------------------*/
+@media screen and (min-width:320px) and (max-width:600px)
+{
+.main-nav ul li.redbord
+{
+box-shadow: 0 0 0 1px #1C950A inset;
+}
+/*Bar menu*/
+.layer-bar
+{
+width: 100%;
+max-width: 1100px;
+margin: auto;
+height: 16px;
+background-color: rgb(51,51,51);
+}
+.partage a img
+{
+height:15px;
+}
+.search a img
+{
+background-color:rgb(100,100,100);
+height:15px;
+}
+/*Menu Categories*/
+.main-nav ul li.logo
+{
+text-align:center;
+width:14.28%;
+height:35px;
+}
+.main-nav ul li.logo:hover
+{
+text-align:center;
+width:14.28%;
+height:35px;
+}
+.main-nav ul li.folio,.main-nav ul li.creation,.main-nav ul li.dev,.main-nav ul li.certif,.main-nav ul li.about,.main-nav ul li.contact 
+{
+text-align:center;
+width:14.28%;
+}
+.main-nav ul li.folio:hover,.main-nav ul li.creation:hover,.main-nav ul li.dev:hover,.main-nav ul li.certif:hover,.main-nav ul li.about:hover,.main-nav ul li.contact:hover 
+{
+text-align:center;
+width:14.28%;
+}
+.main-nav ul li.folio a,.main-nav ul li.creation a,.main-nav ul li.dev a,.main-nav ul li.certif a,.main-nav ul li.about a,.main-nav ul li.contact a
+{
+background-position: 50% 30%;
+background-size:15px;
+font-size:0.7em;
+line-height: 60px;
+}
+.main-nav ul li.logo a
+{
+left:0px;
+top:-5px;
+height:50px;
+background-size:100% 80%;
+}
+/*NAVIGATION*/
+.main-nav ul li.bord:hover
+{
+box-shadow: 0 0 0 1px #C51B1D inset;
+}
+/*Bar presention*/
+.categorie
+{
+display:block;
+height:15px;
+background-color:#C51B1D;
+max-width: 1100px;
+margin: auto;
+background-image: url('../img/noise.png');
+}
+.categorie p
+{
+margin:0;
+height:100%;
+width:100%;
+text-align:center;
+line-height:15px;
+color: rgb(250,250,250);
+font-family: 'Dancing Script', cursive;
+font-size:1.1em;
+font-weight:700;
+letter-spacing:1px;
+}
+/*--------------*/
+}
+/*-------------------------------------------------------------------*/
+@media screen and (min-width:240px) and (max-width:320px)
+{
+.main-nav ul li.redbord
+{
+box-shadow: 0 0 0 4px #95910A inset;
+}
+/*Bar meunu*/
+.layer-bar
+{
+width: 100%;
+max-width: 1100px;
+margin: auto;
+height: 35px;
+background-color: rgb(51,51,51);
+}
+.partage a img
+{
+height:35px;
+}
+.search a img
+{
+background-color:rgb(100,100,100);
+height:35px;
+}
+/*Menu Categories*/
+.main-nav ul li.logo
+{
+text-align:center;
+width:14.28%;
+height:90px;
+}
+.main-nav ul li.logo:hover
+{
+text-align:center;
+width:14.28%;
+height:90px;
+}
+.main-nav ul li.folio,.main-nav ul li.creation,.main-nav ul li.dev,.main-nav ul li.certif,.main-nav ul li.about,.main-nav ul li.contact 
+{
+text-align:center;
+width:14.28%;
+}
+.main-nav ul li.folio:hover,.main-nav ul li.creation:hover,.main-nav ul li.dev:hover,.main-nav ul li.certif:hover,.main-nav ul li.about:hover,.main-nav ul li.contact:hover 
+{
+text-align:center;
+width:14.28%;
+}
+.main-nav ul li.folio a,.main-nav ul li.creation a,.main-nav ul li.dev a,.main-nav ul li.certif a,.main-nav ul li.about a,.main-nav ul li.contact a
+{
+background-position: 50% 30%;
+background-size:40px;
+font-size:1.3em;
+line-height: 145px;
+}
+.main-nav ul li.logo a
+{
+left:4px;
+top:-25px;
+height:120px;
+background-size:95% 95%;
+}
+/*NAVIGATION*/
+.main-nav ul li.bord:hover
+{
+box-shadow: 0 0 0 4px #C51B1D inset;
+}
+/*Bar presention*/
+.categorie
+{
+display:block;
+height:25px;
+background-color:#C51B1D;
+max-width: 1100px;
+margin: auto;
+background-image: url('../img/noise.png');
+}
+.categorie p
+{
+margin:0;
+height:100%;
+width:100%;
+text-align:center;
+line-height:25px;
+color: rgb(250,250,250);
+font-family: 'Dancing Script', cursive;
+font-size:1.5em;
+font-weight:700;
+letter-spacing:1px;
+}
+/*--------------*/
+}
